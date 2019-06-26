@@ -59,12 +59,15 @@ while True:
                     except ValueError:
                         print("Invalid Operation")
                         print("Please try again")
-
                 elif (option == 5):
                     name = input("Which book do you want increase it's edition ? :")
                     print("Increasing edition...")
                     time.sleep(2)
                     library.increaseEdition(name)
+                else:
+                    print("Invalid Operation...")
+                    print("Please try again!")
             except ValueError:
                 print("Invalid Operation...")
                 print("Please try again!")
+
