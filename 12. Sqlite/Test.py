@@ -23,6 +23,7 @@ while True:
             print("Program Exit...")
             time.sleep(2)
             print("Have a good day...")
+            break
         else:
             try:
                 option = int(option)
