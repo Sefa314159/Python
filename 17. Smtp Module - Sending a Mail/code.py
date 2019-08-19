@@ -31,7 +31,7 @@ try:
     
     mail.starttls()
     
-    mail.login("asdfdsf", "asdfdsf") # mail.login(username, "password")
+    mail.login("asdfdsf", "asdfdsf") # mail.login(username, password)
     
     mail.sendmail(message["From"], message["To"], message.as_string())
     
